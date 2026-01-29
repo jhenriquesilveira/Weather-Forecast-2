@@ -11,7 +11,7 @@
       integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    />
+    />    
   </head>
   <body>
     <div id="container">
@@ -27,7 +27,7 @@
           <i class="fa-solid fa-magnifying-glass"></i>
         </button>
       </form>
-      <div id="weather">
+      <div id="weather" class="show">
         <h1 id="tittle">Nova Petrópolis - BR</h1>
         <div id="infos">
           <div id="temp">
@@ -50,7 +50,7 @@
                 </div>
             </div>
             <div class="info">
-                <i id="temp_max_icon" class="fa-solid fa-temperature-low"></i>
+                <i id="temp_min_icon" class="fa-solid fa-temperature-low"></i>
                 <div>
                     <h2>Temp. min</h2>
                     <p id="temp_min">20° C</p>
@@ -75,5 +75,6 @@
       </div>
       <div id="alert"></div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
